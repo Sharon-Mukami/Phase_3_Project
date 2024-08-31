@@ -90,3 +90,5 @@ Several features such as the total day minutes, total night minutes, total eve m
 - Predict and Prevent Churn: Utilise data analytics and predictive modelling to identify potential churners. Implement targeted retention strategies to effectively reduce churn risks.
 
 - Collect Customer Feedback: Actively seek feedback through surveys to understand customer pain points and areas for improvement. Use this feedback to enhance services and address customer needs effectively.
+
+ ## For further analysis of the Dataset, check out the [Notebook here](https://github.com/Sharon-Mukami/Phase_3_Project/blob/main/Phase_3_project.ipynb).
