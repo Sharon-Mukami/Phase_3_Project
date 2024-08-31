@@ -3,6 +3,8 @@
 
  ![alt text](image.jfif)
 
+You can access the presentation slides ![here](https://www.canva.com/design/DAGPbl92PxE/g-pzCmsR-3ZlpjlZZ8UXqA/view?utm_content=DAGPbl92PxE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 # Overview
 This project aims to address the inefficient management of customer churn within SyriaTel's subscriber base, where traditional churn prediction methods have proven suboptimal, leading to ineffective resource allocation and missed opportunities for retaining valuable customers. To solve this problem, the project leverages advanced analytics and machine learning techniques to develop a predictive model that accurately identifies customers at risk of churn.
 
