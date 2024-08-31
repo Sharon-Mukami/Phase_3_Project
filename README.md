@@ -28,12 +28,8 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/becksddf/ch
 
 Summary of the datasets features:
 
-The dataset contains the following columns:
-
 - State: The state in which the customer resides
-
 - Account length: The number of days the customer has been the company.
-
 - Area code: The area code of the customer's phone number.
 - Phone number: The customer's phone number.
 - International plan: Whether the customer has an international plan or not(Y/N)
