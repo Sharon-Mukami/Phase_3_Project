@@ -1,55 +1,56 @@
 # Phase_3_Project
 # Predictive Analysis for customer churn in Syria Tel.
 
- ![alt text][image.jfif]
+ ![alt text](image.jfif)
+
+You can access the presentation slides ![here](https://www.canva.com/design/DAGPbl92PxE/g-pzCmsR-3ZlpjlZZ8UXqA/view?utm_content=DAGPbl92PxE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 # Overview
 This project aims to address the inefficient management of customer churn within SyriaTel's subscriber base, where traditional churn prediction methods have proven suboptimal, leading to ineffective resource allocation and missed opportunities for retaining valuable customers. To solve this problem, the project leverages advanced analytics and machine learning techniques to develop a predictive model that accurately identifies customers at risk of churn.
 
 # Business Understanding
-SyriaTel, a telecommunications company, is experiencing high customer churn rates, which means customers are stopping their service and going to competitors. This leads to lost revenue and potential decline in market share. The company wants to reduce customer churn to increase their revenue and customer retention, which will be done through analysing historical customer data and using advanced analytics and predictive modelling. By predicting which customers are likely to leave, SyriaTel can take proactive measures to retain them, strengthening its position in the telecommunications industry.
+SyriaTel, a telecommunications company, is experiencing high customer churn rates (meaning customers are stopping their service and going to competitors). This leads to lost revenue and potential decline in market share. The company wants to reduce customer churn to increase their revenue and customer retention, which will be done through analysing historical customer data and using advanced analytics and predictive modelling. By predicting which customers are likely to leave, SyriaTel can take proactive measures to retain them, strengthening its position in the telecommunication industry.
 
 The key stakeholders include:
-SyriaTel Management who are interested in strategies to reduce churn.
-Marketing Team which needs to target at-risk customers with retention campaigns.
+SyriaTel Management whose interests are strategies to reduce churn.
+Marketing Team whose interests are holding campaigns for customer retention towards the atrisk customers.
 
 # Problem Statement
-SyriaTel,is experiencing  high customer churn rates impacting revenue streams and market competitiveness despite considerable investments in marketing and retention strategies. This project aims to address the inefficient management of customer churn within SyriaTel's subscriber base, where previous churn prediction methods have proven suboptimal, leading to ineffective resource allocation and missed opportunities for retaining valuable customers. To solve this problem, the project leverages advanced analytics and machine learning techniques to develop a predictive model that accurately identifies customers at risk of churn
+Syria Tel wants to predict customer churn based on historical data to identify customers at risk of leaving the service. By doing so, the company can implement targeted retention strategies to reduce customer attrition and improve overall customer satisfaction.
 
 # Objectives
-
 1. Analyse the historical Data: Performing a thorough analysis of SyriaTel's historical customer data, which include usage patterns, service interactions, and churn records, to identify key features and trends associated with potential churn.
 
 2. Develop a Predictive Model: Using advanced analytics and machine learning algorithms, such as logistic regression and ensemble methods, to construct a predictive model with high accuracy for forecasting customer churn. 
 
-3. Implement Retention Strategies: Integrating the predictive model into SyriaTel's operational framework to facilitate real-time detection of at-risk customers. Developing and also implementing personalised retention strategies based on the model's predictions to effectively reduce churn.
+3. Develop and Implement Retention Strategies: Integrating the predictive model into SyriaTel's operational framework to facilitate real-time detection of at-risk customers. Developing and also implementing personalised retention strategies based on the model's predictions to effectively reduce churn.
 
 # Data Understanding
-The dataset is sourced from Kaggle. It provides information on the customers behaviors which enables analysis and prediction of the churn patterns. It contains 3333 entries and 21 features. All features, except for Phone number and State, contain numerical values, while the remaining features are categorical or binary.
+The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset). It provides information on the customers behaviors which enables analysis and prediction of the churn patterns. It contains 3333 entries and 21 features. All features, except for Phone number and State, contain numerical values, while the remaining features are categorical or binary.
 
 Summary of the datasets features:
 
-- State: The state where the customer resides.
-- Account Length: The number of days the customer has maintained an account.
-- Area Code:T he customer's area code.
-- Phone Number: The customer's phone number.
-- International Plan: Indicates if the customer is subscribed to the international plan or not.
-- Voice Mail Plan: Indicates if the customer is subscribed to the voice mail plan or not.
-- Number Vmail Messages: The count of voicemail messages sent by the customer.
-- Total Day Minutes: The total number of minutes the customer spent on calls during the day.
-- Total Day Calls: The total number of calls made by the customer during the day.
-- Total Day Charge: The total charges incurred by the customer for daytime calls.
-- Total Eve Minutes: The total number of minutes the customer spent on calls during the evening.
-- Total Eve Calls: The total number of calls made by the customer during the evening.
-- Total Eve Charge: The total charges incurred by the customer for evening calls.
-- Total Night Minutes: The total number of minutes the customer spent on calls during the night.
-- Total Night Calls: The total number of calls made by the customer during the night.
-- Total Night Charge: The total charges incurred by the customer for nighttime calls.
-- Total Intl Minutes: The total number of minutes the customer spent on international calls.
-- Total Intl Calls: The total number of international calls made by the customer.
-- Total Intl Charge: The total charges incurred by the customer for international calls.
-- Customer Service Calls: The number of calls made by the customer to customer service.
-- Churn: Indicates if the customer has ended their contract or not.
+- State: The state in which the customer resides
+- Account length: The number of days the customer has been the company.
+- Area code: The area code of the customer's phone number.
+- Phone number: The customer's phone number.
+- International plan: Whether the customer has an international plan or not(Y/N)
+- Voice mail plan: Whether the customer has a voicemail plan or not(Y/N)
+- Number vmail messages: The number of voicemail messages.
+- Total day minutes: Total number of minutes the customer used during the day.
+- Total day calls: Total number of calls the customer made during the day. 
+- Total day charge: Total charges for calls made during the day.
+- Total eve minutes: Total number of minutes the customer used during the evening.
+- Total eve calls: Total number of calls the customer made during the evening.
+- Total eve charge: Total charges for calls made during the evening.
+- Total night minutes: Total number of minutes the customer used during the night.
+- Total night calls: Total number of calls the customer made during the night.
+- Total night charge: Total charges for calls made during the night.
+- Total intl minutes: Total number of international calls made.
+- Total intl calls: Total number of international calls made.
+- Total intl charge: Total charges for international calls.
+- Customer service calls: Number of customer service calls made.
+- Churn: Whether the customer churned or not(Y/N).
 
 # Modeling
 1. Baseline model: Logistic Regression: Accuracy: The model achieves an overall accuracy of about 84.56%, correctly classifying approximately 84.56% of the test dataset instances.
@@ -91,3 +92,5 @@ Several features such as the total day minutes, total night minutes, total eve m
 - Predict and Prevent Churn: Utilise data analytics and predictive modelling to identify potential churners. Implement targeted retention strategies to effectively reduce churn risks.
 
 - Collect Customer Feedback: Actively seek feedback through surveys to understand customer pain points and areas for improvement. Use this feedback to enhance services and address customer needs effectively.
+
+ ## For further analysis of the Dataset, check out the [Notebook here](https://github.com/Sharon-Mukami/Phase_3_Project/blob/main/Phase_3_project.ipynb).
