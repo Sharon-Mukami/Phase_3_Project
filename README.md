@@ -1,7 +1,7 @@
 # Phase_3_Project
 # Predictive Analysis for customer churn in Syria Tel.
 
- ![alt text][image.png]
+ ![alt text](image.jfif)
 
 # Overview
 This project aims to address the inefficient management of customer churn within SyriaTel's subscriber base, where traditional churn prediction methods have proven suboptimal, leading to ineffective resource allocation and missed opportunities for retaining valuable customers. To solve this problem, the project leverages advanced analytics and machine learning techniques to develop a predictive model that accurately identifies customers at risk of churn.
