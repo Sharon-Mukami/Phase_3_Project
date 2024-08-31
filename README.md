@@ -54,21 +54,21 @@ Summary of the datasets features:
 
 Precision and Recall: For class 1, the precision is 0.46, meaning that 46% of the instances predicted as positive are actually positive. The recall for class 1 is 0.11, indicating that only 11% of the actual positive instances are correctly identified.
 
-F1-score: The F1-score balances precision and recall. For class 1, the F1-score is 0.18, highlighting the model's poor performance in accurately predicting positive instances. The model performs well in identifying true negatives (non-churners) but has difficulty predicting true positives (churners).
+F1-score: The F1-score balances precision and recall. For class 1, the F1-score is 0.18, highlighting the model's poor performance in accurately predicting positive instances. The model performs well in identifying true negatives (non-churners) but has difficulty predicting true positives (churners).  ![alt text](image%201.png)
 
 2. Gradient Boosting Model: Accuracy:The model has an overall accuracy of about 88.16%, meaning it correctly predicts the class label for 88.16% of the test dataset instances.
 
 Precision and Recall: For class 1, the precision is 0.78, showing that 78% of the instances predicted as positive are correct. The recall for class 1 is 0.31, indicating that 31% of the actual positive instances are accurately identified.
 
-F1-score: The F1-score for class 1 is 0.44, indicating moderate performance in correctly predicting positive instances.The model excels at predicting true negatives (non-churners) but struggles with accurately predicting churners. 
+F1-score: The F1-score for class 1 is 0.44, indicating moderate performance in correctly predicting positive instances.The model excels at predicting true negatives (non-churners) but struggles with accurately predicting churners.   ![alt text](image%202.png)
 
 3. XGboost Classifier: Accuracy: The  model achieves an overall accuracy of around 87.71%, accurately predicting the class label for 87.71% of the test dataset instances.
 
 Precision and Recall: For class 1, the precision is 0.69, meaning 69% of the instances predicted as positive are correct. The recall for class 1 is 0.34, indicating that 34% of the actual positive instances are accurately identified.
 
-F1-score: The F1-score for class 1 is 0.45, reflecting moderate performance in predicting positive instances accurately. This model performs well in identifying true negatives (non-churners) but has difficulty accurately predicting churners.
+F1-score: The F1-score for class 1 is 0.45, reflecting moderate performance in predicting positive instances accurately. This model performs well in identifying true negatives (non-churners) but has difficulty accurately predicting churners.   ![alt text](image%203.png)
 
-4. Tuning the best two models:The optimal ROC curve in the graph corresponds to the Gradient Boosting model, indicating its superior performance by achieving the best balance between correctly identifying positive instances and minimizing false positives.
+4. Tuning the best two models:The optimal ROC curve in the graph corresponds to the Gradient Boosting model, indicating its superior performance by achieving the best balance between correctly identifying positive instances and minimizing false positives. ![alt text](image%204.png)
 
 # Evaluation
 Three models were tested: Logistic Regression, Gradient Boosting, and XGBoost. After evaluation, two models were fine-tuned for improved performance. The Test ROC AUC Score measures the model's ability to distinguish between positive and negative outcomes.In this case, Gradient Boosting had the highest score of 0.76, indicating superior performance in differentiating between outcomes. 
